@@ -61,7 +61,6 @@ function App() {
 
     const updatedTickets = [...newTickets.filter((ticket) => ticket.id !== movedTicket.id), movedTicket]
 
-    console.log("updatedTickets", updatedTickets)
 
 
     updateTickets(updatedTickets);
