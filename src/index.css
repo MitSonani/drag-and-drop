@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.flex-ticketBox {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.todo {
+  min-width: 300px;
+  border-right: 1px solid black;
+  height: 100vh;
+  margin: 8px;
+  padding-right: 10px;
+}
+
+
+.ticket-box {
+  cursor: pointer;
+  border: 1px solid #b0a9a9;
+  border-radius: 10px;
+  margin: 0 0 10px 0;
+
+}
